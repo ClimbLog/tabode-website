@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tabode - Shared expenses for the people you live with</title>
+  <meta name="description" content="Tabode is a simple shared-expense app for households. Add a bill, split it your way, see who owes whom, and mark each share paid. Coming to iOS and Android." />
+  <link rel="canonical" href="https://tabode.co/" />
+  <meta name="theme-color" content="#1F7F63" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Tabode" />
+  <meta property="og:url" content="https://tabode.co/" />
+  <meta property="og:title" content="Tabode" />
+  <meta property="og:description" content="Shared expenses for the people you live with. Split bills, see balances, mark shares paid." />
+  <meta property="og:image" content="https://tabode.co/assets/img/icon-512.png" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/assets/img/icon-180.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="/" aria-label="Tabode home">
+        <img src="/assets/img/icon.svg" width="32" height="32" alt="" />
+        <span>Tabode</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero ------------------------------------------------------------ -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Shared expenses, simply</p>
+          <h1>Split the bills, <span class="accent">not the household.</span></h1>
+          <p class="lede">
+            Tabode keeps track of what everyone in your home has paid for, so
+            nobody has to keep a spreadsheet or remember who covered groceries
+            last week.
+          </p>
+          <div class="cta-row">
+            <span class="badge">Coming soon to iOS and Android</span>
+          </div>
+        </div>
+
+        <!-- Illustrative app screen, not real data. -->
+        <div class="phone" aria-hidden="true">
+          <div class="phone-top">
+            <span class="home-name">Our place</span>
+            <span class="avatar-row"><i style="--c:#1F7F63">Y</i><i style="--c:#C27A2C">S</i></span>
+          </div>
+          <div class="balance">
+            <span class="balance-label">Sam owes you</span>
+            <span class="balance-amount">$42.50</span>
+            <span class="balance-btn">Settle up</span>
+          </div>
+          <ul class="expenses">
+            <li>
+              <span class="cat">
+                <svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+              </span>
+              <span class="exp-main"><b>Groceries</b><small>You paid · split evenly</small></span>
+              <span class="exp-amt">$100.98<small class="owed">Sam owes $50.49</small></span>
+            </li>
+            <li>
+              <span class="cat">
+                <svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+              </span>
+              <span class="exp-main"><b>Electric</b><small>Sam paid · split evenly</small></span>
+              <span class="exp-amt">$61.00<small class="paid">Your share paid</small></span>
+            </li>
+            <li>
+              <span class="cat">
+                <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8"/></svg>
+              </span>
+              <span class="exp-main"><b>Streaming</b><small>Sam paid · split evenly</small></span>
+              <span class="exp-amt">$15.98<small class="owe">You owe $7.99</small></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -------------------------------------------------------- -->
+    <section id="features" class="features">
+      <div class="wrap">
+        <h2>Everything a shared home needs, nothing it doesn't</h2>
+        <p class="section-lede">Made for couples and roommates who split rent, groceries and the rest, and just want the numbers to be right.</p>
+
+        <div class="grid">
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/></svg></div>
+            <h3>Split it your way</h3>
+            <p>Divide an expense evenly, by exact amounts or by percentage. Tabode checks the math so the shares always add up.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg></div>
+            <h3>Mark each share paid</h3>
+            <p>Paid someone back for one bill? Mark just that share as paid, on any device, and undo it if you tapped the wrong one.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg></div>
+            <h3>Settle up at once</h3>
+            <p>See everything still open in both directions, net it out to one amount, and record how you paid when you square up.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M20 12v8H4v-8M2 7h20v5H2zM12 22V7M12 7H8a2 2 0 1 1 0-4c3 0 4 4 4 4zM12 7h4a2 2 0 1 0 0-4c-3 0-4 4-4 4z"/></svg></div>
+            <h3>Organized by category</h3>
+            <p>Rent, groceries, utilities, dining, pets and more, each with its own icon, plus the date paid and who added it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works ---------------------------------------------------- -->
+    <section id="how" class="how">
+      <div class="wrap">
+        <h2>Up and running in a minute</h2>
+        <ol class="steps">
+          <li>
+            <span class="step-num">1</span>
+            <h3>Start a home</h3>
+            <p>Sign in with email or Google and give your home a name.</p>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <h3>Invite your people</h3>
+            <p>Share a one-time invite code. It works once and expires after a week.</p>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <h3>Add what you spend</h3>
+            <p>Log a bill when you pay it. Everyone sees the same balances, updated as you go.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Closing --------------------------------------------------------- -->
+    <section class="closing">
+      <div class="wrap closing-inner">
+        <img src="/assets/img/icon-512.png" width="88" height="88" alt="Tabode app icon" />
+        <h2>Fair and square, every month.</h2>
+        <p>Tabode is in testing now and coming to the App Store and Google Play. Splitting stays free, with no ads.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> <a href="https://keyqueue.llc" rel="noopener">KeyQueue LLC</a>. All rights reserved.</p>
+      <p class="muted">Tabode records who owes whom. It does not move money.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
